@@ -20,7 +20,7 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
                 className={styles.xIcon}
                 loading="lazy"
                 alt=""
-                src="/x.svg"
+                src="/x1.svg"
               />
             </div>
             <img

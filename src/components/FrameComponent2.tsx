@@ -16,12 +16,12 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
             className={styles.starIcon}
             loading="lazy"
             alt=""
-            src="/star.svg"
+            src="/star1.svg"
           />
-          <img className={styles.starIcon1} alt="" src="/star.svg" />
-          <img className={styles.starIcon2} alt="" src="/star.svg" />
-          <img className={styles.starIcon3} alt="" src="/star.svg" />
-          <img className={styles.starIcon4} alt="" src="/star.svg" />
+          <img className={styles.starIcon1} alt="" src="/star1.svg" />
+          <img className={styles.starIcon2} alt="" src="/star1.svg" />
+          <img className={styles.starIcon3} alt="" src="/star1.svg" />
+          <img className={styles.starIcon4} alt="" src="/star1.svg" />
         </div>
         <div className={styles.reviewBody}>
           <div className={styles.textHeading}>

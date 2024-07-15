@@ -16,9 +16,9 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
         <InputField label="Password" />
         <div className={styles.buttonGroup}>
           <div className={styles.button}>
-            <img className={styles.starIcon} alt="" src="/star1.svg" />
+            <img className={styles.starIcon} alt="" src="/star11.svg" />
             <div className={styles.button1}>Button</div>
-            <img className={styles.xIcon} alt="" src="/x1.svg" />
+            <img className={styles.xIcon} alt="" src="/x11.svg" />
           </div>
           <div className={styles.button2}>
             <img className={styles.starIcon1} alt="" src="/star2.svg" />
