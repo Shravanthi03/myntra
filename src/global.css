@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --m3-label-large: Roboto;
+
+  /* font sizes */
+  --m3-label-large-size: 14px;
+
+  /* Colors */
+  --schemes-on-primary: #fff;
+}
