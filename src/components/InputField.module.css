@@ -1,0 +1,63 @@
+.description,
+.label,
+.value {
+  position: relative;
+  line-height: 140%;
+}
+.label {
+  align-self: stretch;
+}
+.description,
+.value {
+  width: 240px;
+  color: var(--text-default-secondary);
+  display: none;
+}
+.value {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--single-line-body-base);
+  font-size: var(--single-line-body-base-size);
+  background-color: transparent;
+  height: 16px;
+  flex: 1;
+  line-height: 100%;
+  color: var(--text-default-tertiary);
+  text-align: left;
+  display: inline-block;
+  min-width: 144px;
+  padding: 0;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--radius-200);
+  background-color: var(--schemes-on-primary);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+  min-width: 240px;
+}
+.error {
+  width: 37px;
+  position: relative;
+  line-height: 140%;
+  display: none;
+}
+.inputField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-200);
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}

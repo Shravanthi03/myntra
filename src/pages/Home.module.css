@@ -1,0 +1,84 @@
+.navigateBeforeIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 92px;
+  left: 20px;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.homeBannerContentChild {
+  height: 202px;
+  width: 390px;
+  position: absolute;
+  margin: 0 !important;
+  top: -138px;
+  right: -122px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.shopNow {
+  height: 61px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.homeBanner,
+.homeBannerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.homeBannerContent {
+  width: 152px;
+  justify-content: flex-start;
+  position: relative;
+}
+.homeBanner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+}
+.home,
+.homeBannerParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.homeBannerParent {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 var(--padding-smi) 0 0;
+  gap: 23.5px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 26px;
+  color: var(--schemes-on-primary);
+  font-family: var(--m3-label-large);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--schemes-on-primary);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 2px;
+  gap: 163px;
+  line-height: normal;
+  letter-spacing: normal;
+}

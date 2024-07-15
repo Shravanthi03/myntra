@@ -1,0 +1,53 @@
+.blankLine,
+.sustainableFashionTip {
+  margin: 0;
+  font-weight: 600;
+}
+.investInVersatile {
+  font-weight: 600;
+  font-family: var(--single-line-body-base);
+}
+.chooseClothingItems {
+  font-weight: 300;
+}
+.investInVersatilePiecesCh {
+  margin: 0;
+}
+.sustainableFashionTipContainer {
+  width: 357px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.beforeafter,
+.postDescription {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.postDescription {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 28px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: var(--color-black);
+  font-family: var(--single-line-body-base);
+}
+.beforeafter {
+  width: 100%;
+  position: relative;
+  background-color: var(--schemes-on-primary);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 75px;
+  gap: var(--gap-mid);
+  line-height: normal;
+  letter-spacing: normal;
+}

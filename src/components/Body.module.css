@@ -1,0 +1,150 @@
+.navigateBeforeIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.image6Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image6Wrapper,
+.postHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image6Wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 236px;
+}
+.postHeader {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-7xs);
+}
+.favoriteIcon {
+  width: 38px;
+  height: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.favoritesAction {
+  width: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.chatBubbleIcon {
+  width: 32px;
+  height: 30px;
+  position: relative;
+}
+.commentAction {
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.shareIcon {
+  height: 36px;
+  width: 29px;
+  position: relative;
+}
+.engagementIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.archiveIcon {
+  height: 36px;
+  width: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.actionIcons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.vintageVibesWith {
+  margin: 0;
+  width: 352px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.postActions {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-2);
+}
+.body,
+.post,
+.postActions,
+.postContent {
+  display: flex;
+  max-width: 100%;
+}
+.postContent {
+  width: 369px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.body,
+.post {
+  justify-content: flex-start;
+}
+.post {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-mid);
+}
+.body {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-3xl-5) var(--padding-sm);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--single-line-body-base);
+}
+@media screen and (max-width: 241px) {
+  .actionIcons {
+    flex-wrap: wrap;
+  }
+}

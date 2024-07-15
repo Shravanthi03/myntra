@@ -1,0 +1,44 @@
+.designBackgroundIcon {
+  height: 202px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-6xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+}
+.designStudio {
+  margin: 0 !important;
+  position: absolute;
+  right: 72px;
+  bottom: 27px;
+  font-size: inherit;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.designBanner,
+.designBannerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.designBannerContent {
+  flex: 1;
+  justify-content: flex-start;
+  position: relative;
+}
+.designBanner {
+  width: 402px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-19xl);
+  color: var(--schemes-on-primary);
+  font-family: var(--m3-label-large);
+}

@@ -1,0 +1,9 @@
+.home {
+  height: 44px;
+  width: 76px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 19px;
+  z-index: 1;
+}

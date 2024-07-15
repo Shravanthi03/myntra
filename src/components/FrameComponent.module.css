@@ -1,0 +1,141 @@
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.stateLayer1 {
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container,
+.content,
+.leadingIcon,
+.stateLayer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.content,
+.leadingIcon {
+  flex-direction: column;
+  padding: var(--padding-9xs);
+}
+.content {
+  width: calc(100% - 56px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 48px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+  font-family: var(--m3-label-large);
+  font-size: var(--single-line-body-base-size);
+  color: var(--schemes-on-surface-variant);
+  min-width: 161px;
+}
+.icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.stateLayer2 {
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container1,
+.stTrailingIcon,
+.stateLayer2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1 {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.stTrailingIcon {
+  flex-direction: column;
+  padding: var(--padding-9xs);
+}
+.icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.stateLayer3 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container2,
+.ndTrailingIcon,
+.stateLayer3 {
+  align-items: center;
+  justify-content: center;
+}
+.container2 {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+}
+.ndTrailingIcon {
+  height: 48px;
+  background-color: var(--schemes-on-surface-variant);
+  display: none;
+  flex-direction: column;
+}
+.trailingElements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.stateLayer {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+}
+.searchBar,
+.searchBarWrapper,
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.searchBar {
+  flex: 1;
+  border-radius: var(--br-9xl);
+  background-color: var(--schemes-surface-container-high);
+  overflow: hidden;
+  align-items: center;
+  min-width: 360px;
+  max-width: 720px;
+}
+.searchBarWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-19xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}

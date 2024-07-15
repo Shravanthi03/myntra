@@ -1,0 +1,129 @@
+.starIcon,
+.starIcon1,
+.starIcon2,
+.starIcon3,
+.starIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.rating {
+  background-color: var(--schemes-on-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-100);
+}
+.textHeading1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.textHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  max-width: 100%;
+}
+.reviewBody,
+.text {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text {
+  flex-direction: row;
+  font-size: var(--single-line-body-base-size);
+}
+.reviewBody {
+  flex-direction: column;
+  gap: var(--space-100);
+}
+.avatarIcon {
+  height: var(--icon-large);
+  width: var(--icon-large);
+  position: relative;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.title {
+  font-weight: 600;
+}
+.description {
+  color: var(--text-default-tertiary);
+}
+.avatarBlock,
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.info {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  min-width: 188px;
+}
+.avatarBlock {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--space-300);
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-secondary);
+}
+.reviewCard,
+.reviewCardWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.reviewCard {
+  flex: 1;
+  border-radius: var(--radius-200);
+  background-color: var(--schemes-on-primary);
+  border: 1px solid var(--border-default-default);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-10xl) var(--padding-4xl);
+  gap: var(--gap-5xl);
+  min-width: 240px;
+  z-index: 1;
+}
+.reviewCardWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl) 0 var(--padding-lg);
+  margin-top: -46px;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}

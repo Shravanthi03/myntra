@@ -1,0 +1,119 @@
+.myntralogo2Icon {
+  height: 72px;
+  width: 54px;
+  position: relative;
+  object-fit: cover;
+}
+.searchIcon {
+  width: 37px;
+  height: 30px;
+  position: relative;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.favoriteIcon {
+  width: 41px;
+  height: 39px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.favoriteContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.shoppingBagIcon {
+  height: 31px;
+  width: 31px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navigationContainer,
+.searchFavoriteContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchFavoriteContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navigationContainer {
+  width: 141px;
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.frameWrapper,
+.myntralogo2Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.myntralogo2Parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.divider,
+.horizontalinset {
+  height: 1px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--schemes-outline-variant);
+}
+.horizontalinset {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0 var(--padding-base);
+}
+.navigateBeforeIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.frameParent,
+.horizontalinsetParent,
+.navigateBeforeWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigateBeforeWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+}
+.frameParent,
+.horizontalinsetParent {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameParent {
+  gap: var(--gap-smi);
+}
